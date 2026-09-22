@@ -5,8 +5,6 @@ A [WordPress plugin](https://wordpress.org/plugins) that renders [OpenFreeMap](h
 ## Installation
 1. Upload the plugin to your `/wp-plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Go to "Settings > OpenFreemap" to configure the plugin
-
 
 ## Basic Usage
 Once activated you can render [OpenFreeMap](https://openfreemap.org) map widgets using the shortcode
@@ -21,9 +19,13 @@ The options are as follows
 - `zoom`  
    Initial zoom of the map (default: `16.5`)
 - `color`  
-   Marker color in CSS notation (default: `#ff0000`)
+   Marker color in hex notation, e.g. `#ff0000` (default: `#ff0000`)
 - `height`  
    Height of the map widget in CSS notation (default: `450px`)
+- `popup_text`  
+   HTML content shown in a popup attached to the marker (default: none)
+- `style`  
+   Map style, one of `bright`, `dark`, `fiord`, `liberty`, `positron` (default: `bright`)
 
 ## Links
 - https://openfreemap.org
